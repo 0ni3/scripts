@@ -20,6 +20,7 @@ def encryptText(input_text, key):
 
             # Ensure we use A-Z regardless of key
             if not ((ord("A")) < key_val < ord("Z")):
+                # check to see if the letter we are looking at is not between A and Z
                 key_val = ord("A") + (key_val - ord("A")) % (ord("Z") - ord("A")+1)
             # Add the encoded letter to the result string
             result += str(chr(key_val))
