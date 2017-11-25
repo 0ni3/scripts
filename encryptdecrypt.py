@@ -34,7 +34,7 @@ def main():
     try:
         user_input = input()
         scrambled_result = encryptText(user_input, 10)
-        print("Result: " + scambled_result)
+        print("Result: " + scrambled_result)
         print("To unscramble, press enter again")
         input()
         unscrambled_result = encryptText(scrambled_result, -10)
