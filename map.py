@@ -58,7 +58,7 @@ def main():
     zoom = 13
 
     window = Tkinter.Tk()
-    window.title("Welcome to ChatBeer")
+    window.title("Welcome to my GitHub profile")
     window.minsize(width, height)
 
     mapimage = getmap(location, width, height, zoom)
@@ -67,7 +67,7 @@ def main():
     canvas.bind("<Button-1>, canvasclick")  # Reacting to mouse click
     canvas.pack()
 
-    label = Tkinter.Label(window, text="Developed by WR")
+    label = Tkinter.Label(window, text="hello!")
     label.pack()
 
     window.mainloop()
