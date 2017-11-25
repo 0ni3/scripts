@@ -27,7 +27,8 @@ def encryptText(input_text, key):
 
             return result
 
-def main():
+# we can reuse this script in other scripts as keypassing.py
+if __name__ == "__main__":
 
     print("Please enter text to scramble:")
     # get user input
